@@ -93,3 +93,14 @@ img {
   background-color: #a9a4a4; /* darker gray on click */
   transform: scale(0.98); /* slightly shrink on click */
 }
+
+.character-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.character-link:hover {
+  color: #6a5acd;
+}

@@ -80,7 +80,12 @@ const Home = () => {
                 </td>
                 <td>
                   {/*the character name is also a link to the profile page of the character, sending a character id*/}
-                  <Link to={`/profile/${character.id}`}>{character.name}</Link>
+                  <Link
+                    to={`/profile/${character.id}`}
+                    className="character-link"
+                  >
+                    {character.name}
+                  </Link>
                 </td>
                 <td>{character.species}</td>
                 <td>{character.status}</td>

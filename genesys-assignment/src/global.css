@@ -1,0 +1,5 @@
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box; /*easier to manage layouts and measurements, padding, border width are counted as part of the set width and height measurements*/
+  background-color: #f9f9f9;
+}

@@ -1,0 +1,59 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+}
+
+.profile-back-button {
+  align-self: center;
+  margin-left: 10vw;
+  margin-bottom: 2vh;
+  border: 1px solid #cac5c5;
+  background-color: #f8f5f5ef;
+  border-radius: 10px;
+  padding: 1vh 1vw;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /*smoother animations*/
+}
+
+.profile-back-button:hover {
+  /*sightly enlage and darker border on hover*/
+  border: 1.5px solid black;
+  transform: scale(1.01);
+}
+
+.profile-back-button:active {
+  /*slightly shrink and darken background on click*/
+  background-color: #a9a4a4;
+  transform: scale(0.98);
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  margin-bottom: 1.5vw;
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1vw;
+  text-align: center;
+}
+
+.profile-details {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: left;
+  color: #333;
+}
+
+.profile-details span {
+  font-weight: 600;
+}

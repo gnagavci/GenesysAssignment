@@ -7,7 +7,6 @@
 - On the Home page you can also see an implementation of pagination for the API data and a search box to sift through the characters.
 - I made sure to comment major pieces of code with logical explanations, as a way to maintain the logic for myself and provide clarification if something doesn't make sense on the first read-through.
 - I tried to add as much detail into the implementation of the assigment as I could. Thank you for the opportunity.
--
 
 ##### To Run the App, go into terminal and type the commands:
 

@@ -1,6 +1,7 @@
 # Genesys Assignment - Rick and Morty Characters App
 
-- Welcome, and thank you for taking a look at my assignment.
+##### Welcome, and thank you for taking a look at my assignment. These are a few notes on the assigment solution:
+
 - The implementation of the assignment was done with React, Node.js and Vite.
 - In the folder structure you can see the Home and Profile pages, with their CSS stylings. The data in the pages comes directly from the provided API endpoint.
 - If you click on a character's name in the Home page, it will take you to the Profile page of the character, where you can see their details.

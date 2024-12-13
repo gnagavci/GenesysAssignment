@@ -15,4 +15,4 @@ cd .\genesys-assignment\
 npm run dev
 ```
 
-You can find the App running locally in address in the terminal.
+You can find the App running locally in the address in the terminal.
